@@ -6,10 +6,16 @@ namespace CSLight
     {
         static void Main(string[] args)
         {
-            int a = 10;
-            int b = 38;
-            int c = (31 - 5 * a) / b ;
-            Console.WriteLine(c);
+            string name = "Kevin";
+            char specSymbol = '♠';
+            byte randomNumber = 1;
+            sbyte age = 31;
+            short height = 172;
+            int carPrice = 2000000;
+            long bankDeposit = 100500600;
+            float footSize = 42.5f;
+            double bodyTemperature = 70.6;
+            bool isWorking = true;
         }
     }
 }
